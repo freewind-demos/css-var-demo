@@ -1,8 +1,10 @@
-Css Hello World Demo
-====================
+Css Var Demo
+============
 
-Use css in html pages.
+在新的CSS中，可以使用`--someName`与`var()`来定义和使用变量。
 
-Open `index.html` in your browser.
+在外层元素中定义的变量，可以在内部使用。
 
-![demo](./images/demo.jpg)
+```
+npm run demo
+```

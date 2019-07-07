@@ -1,9 +1,11 @@
 #main {
-    width: 600px;
-    height: 400px;
-    background-color: #EEEEEE;
-    font-size: 40px;
-    line-height: 400px;
-    text-align: center;
-    margin: 0 auto;
+    --bg-color1: green;
+    border: 1px solid red;
+    padding: 20px;
+    width: 400px;
+    height: 300px;
+}
+
+#inner {
+    background-color: var(--bg-color1);
 }
