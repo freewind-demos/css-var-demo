@@ -6,5 +6,5 @@ Css Var Demo
 在外层元素中定义的变量，可以在内部使用。
 
 ```
-npm run demo
+npm start
 ```
